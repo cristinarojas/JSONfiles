@@ -22,7 +22,7 @@ var family = {
 	}
 };
 
-// Accesing to the data arrayName[indexArray].property
+// Accesing to the data variable name.childObject.property
 
 console.log(family.cristina.age); // 28
 console.log(family.carlos.gender); // male
