@@ -1,0 +1,29 @@
+// Another way to save multiple data is nest objects
+
+// 1.- Declare the name of the variable.
+// 2.- Open one parent object.
+// 3.- Inside the parent object declare the variables to save the child objects.
+
+var family = {
+	"cristina": {
+		"fullname": "cristina elizabeth rojas zamora",
+		"age": "28",
+		"gender": "female"
+	},
+	"carlos": {
+		"fullname": "carlos santana roldan",
+		"age": "29",
+		"gender": "male"
+	},
+	"nayeli": {
+		"fullname": "valentina nayeli rojas zamora",
+		"age": "24",
+		"gender": "female"
+	}
+};
+
+// Accesing to the data arrayName[indexArray].property
+
+console.log(family.cristina.age); // 28
+console.log(family.carlos.gender); // male
+console.log(family.nayeli.fullname); // valentina nayeli rojas zamora

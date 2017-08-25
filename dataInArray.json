@@ -1,0 +1,28 @@
+// To save multiple information in a variable
+
+// 1.- One array.
+// 2.- Inside array insert objects separed by commas. 
+
+var family = [
+	{
+		"name": "cristina",
+		"age": "28",
+		"gender": "female"
+	},
+	{
+		"name": "nayeli",
+		"age": "24",
+		"gender": "female"
+	},
+	{
+		"name": "carlos",
+		"age": "29",
+		"gender": "male"
+	}
+];
+
+// Accesing to the data arrayName[indexArray].property
+
+console.log(family[0].name); // cristina
+console.log(family[1].gender); // female
+console.log(family[2].age); // 29

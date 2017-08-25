@@ -1,0 +1,14 @@
+// Simple information can be save like this
+
+// 1.- Declaring variable.
+// 2.- Assing one object to the variable.
+var cristina = {
+	"age": "28",
+	"hometown": "Los Angeles",
+	"gender": "female"
+};
+
+// Acces to the JSON
+console.log(cristina.age); // 28
+console.log(cristina.hometown); // Los Angeles
+console.log(cristina.gender); // female
